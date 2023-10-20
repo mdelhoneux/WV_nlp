@@ -90,3 +90,25 @@ mid-December, before you start studying for exams. I therefore recommend
 to start with this mid-November, in parallel with the
 *probleemstelling*.
 
+Overall, this is my suggested timeline:
+* October: read the textbook and papers and work on the *literatuurstudie*
+* November: 
+    * read the papers and find other related papers, identify research questions for the *probleemstelling*
+    * Get a VSC account
+    * Figure out how to login to your VSC account
+    * Install software you need
+* December:
+    * Finalize and present the *probleemstelling*
+    * Work out how to run an experiment with slurm
+* January:
+    * I expect you are busy with exams here
+* February:
+    * Get baseline experiments
+    * Work on the poster
+* March:
+    * More experiments, hopefully ones that answer your research questions now
+* April:
+    * Final presentation.
+    * Further experiments if needed
+* May:
+    * Paper + reviewing others papers + revising final version of your paper after getting reviews on your own
