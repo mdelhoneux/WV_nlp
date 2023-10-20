@@ -21,10 +21,10 @@ be easy to read without doing some background reading first. For this, I
 recommend the [Jurafsky and Martin textbook](https://web.stanford.edu/~jurafsky/slp3/). The chapters most
 likely to be of use to you are:
 
-* Chapter 7: Neural Networks and Neural Language Models
-* Chapter 8: (only up to 8.3) Sequence Labeling for Parts of Speech and Named Entities (if your focus will be on POS tagging or NER)
-* Chapter 10: Transformers and Pretrained Language Models
-* Chapter 11: Fine-tuning and Masked Language Models
+* [Chapter 7](https://web.stanford.edu/~jurafsky/slp3/7.pdf): Neural Networks and Neural Language Models
+* [Chapter 8](https://web.stanford.edu/~jurafsky/slp3/8.pdf): (only up to 8.3) Sequence Labeling for Parts of Speech and Named Entities (if your focus will be on POS tagging or NER)
+* [Chapter 10](https://web.stanford.edu/~jurafsky/slp3/10.pdf): Transformers and Pretrained Language Models
+* [Chapter 11](https://web.stanford.edu/~jurafsky/slp3/11.pdf): Fine-tuning and Masked Language Models
 
 Complementary readings for where that textbook may be unclear:
 
