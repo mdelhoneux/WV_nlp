@@ -21,10 +21,11 @@ be easy to read without doing some background reading first. For this, I
 recommend the [Jurafsky and Martin textbook](https://web.stanford.edu/~jurafsky/slp3/). The chapters most
 likely to be of use to you are:
 
-* [Chapter 7](https://web.stanford.edu/~jurafsky/slp3/7.pdf): Neural Networks and Neural Language Models
-* [Chapter 8](https://web.stanford.edu/~jurafsky/slp3/8.pdf): (only up to 8.3) Sequence Labeling for Parts of Speech and Named Entities (if your focus will be on POS tagging or NER)
-* [Chapter 10](https://web.stanford.edu/~jurafsky/slp3/10.pdf): Transformers and Pretrained Language Models
-* [Chapter 11](https://web.stanford.edu/~jurafsky/slp3/11.pdf): Fine-tuning and Masked Language Models
+* [Chapter 4](https://web.stanford.edu/~jurafsky/slp3/4.pdf): Logic regression and Text classification (sections 1-8 and 10 are relevant if you work with classification and/or for some background in machine learning if you don't have it. Section 9 is relevant to most if you don't know precision/recall/F1. Section 10+ are likely not directly relevant.)
+* [Chapter 6](https://web.stanford.edu/~jurafsky/slp3/6.pdf): Neural Networks
+* [Chapter 7](https://web.stanford.edu/~jurafsky/slp3/7.pdf): Large Language Models
+* [Chapter 10](https://web.stanford.edu/~jurafsky/slp3/10.pdf): Masked Language Models (sections 4+ are relevant if you do sequence classification such as POS tagging or NER)
+
 
 Complementary readings for where that textbook may be unclear:
 
@@ -36,7 +37,7 @@ detail. Just try to skim them so that you can make sense of the other
 readings.
 
 ## Tools
-
+<!--
 If you are working with [Universal Dependencies](https://universaldependencies.org), if you would like to
 first get acquainted with the task, you might want to first try using
 [Stanza](https://stanfordnlp.github.io/stanza/). It is a tool relatively
@@ -48,8 +49,10 @@ recommend [MaChAmp](https://github.com/machamp-nlp/machamp), a tool that
 is configurable with config files in the *json* format. More info on [this page](docs/machamp.md).
 Both Kushal and me have experience working with this tool so don't hesitate to ask for our
 help.
+-->
+The large majority of state-of-the-art NLP tools use [HuggingFace](https://huggingface.co/) which makes it easy to reuse existing models. Familiarizing yourself with the library is definitely useful.
 
-MaChAmp, as well as pretty much all current alternative state-of-the-art
+Pretty much all current state-of-the-art
 NLP tools, work with large transformer models which are difficult to fit
 on CPUs. I do not recommend running these models on your laptop (except
 maybe for debugging purposes). Rather, I recommend to use the [flemish supercomputer](https://www.vscentrum.be/user-portal). The first thing to
@@ -80,7 +83,7 @@ first semester. This means that there is no strict requirement to get
 started with code/implementations. However, due to the nature of the
 work, you can expect to need more than a month to get your first
 experiment running as there are several tools you need to learn to use
-(ssh/conda/slurm/machamp). Once you have your first experiment run, you
+(ssh/conda/slurm/huggingface). Once you have your first experiment run, you
 should be able to run many more and that's where it gets interesting. In
 March, you are expected to do a poster presentation and this requires
 presenting preliminary results. It can be difficult to meet this
